@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+html{
+    overflow-y: scroll;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: Rajdhani, Work Sans;
+}
+body.pageEmpresa{
+    background: #36023898;
+    background: url(/img/cat1.jpg) no-repeat center fixed;
+    background-size: 100vw;
+}
+body.pageServicos{
+    background: unset;
+}
+body.pageServicos video{
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.4;
+}
+nav{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #36023898;
+}
+body.pageServicos nav{
+    background: #000;
+}
+.logoSite{
+    float: center;
+    width: 45%;
+}
+nav{
+    text-align: center;
+}
+/* Configuração navegação */
+nav a{
+    display: block;
+    width: auto;
+    height: 56px;
+    padding: 6px;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Rajdhani', cursive;
+    font-weight: 400;
+    display: inline-block;
+}
+
+/*Regrasdosconteudo*/
+main{
+    padding: 80px 10px;
+}
+.homeArticle{
+    width: 40%;
+    background: #36023898;
+    margin: 15px 4%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.5);
+    padding: 10px;
+    display: block;
+    float: left;
+    min-height: 200px;
+}
+.homeArticle.active{
+    background: #36023898;
+}
+.homeArticle img{
+    float: left;
+    margin-right: 10px;
+    border: 1px solid #360238;
+    border-radius: 15px;
+}
+.homeArticle h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #360238;
+}
+.homeArticle p{
+    font-style: italic;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 14px;
+    min-height: 80px;
+}
+.homeArticle a{ /*bottão*/
+    display: block;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+    text-align: center;
+    padding: 4px;
+    background: #360238;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+}
+.homeArticle a:hover{
+    background: black;
+    box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.5);
+    padding: 6px;
+    border-radius: 10px;
+    transition: 0,15s padding ease-out, 0.15s
+    margin ease-out, 0.15s border ease-out;
+}
+/*estilo de carousel*/
+.Carousel{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background: #360238;
+    margin-left: -3%;
+}
+.Carousel li{
+    list-style: none;
+    margin: 1%;
+    float: left;
+}
+/*pagina serviços*/
+body.pageServicos table{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid #360238;
+}
+
+body.pageServicos table tr:nth-child(odd) td {
+    background-color: #36023898;
+}
+
+body.pageServicos table td{
+    background: white;
+    padding: 4px;
+    border: unset;
+}
+body.pageServicos table tr.titulo td{
+    background: #36023898;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.
+
+/*Estilo Footer*/
+footer{
+    width: 100%;
+    height: 45px;
+    bottom: 10px;
+    background: #36023898;
+}
+footer span{
+    display: inline-block;
+    width: 43%;
+    padding: 10px;
+    color: black
+}
+footer .assinatura{
+    text-align: right;
+}
+footer .assinatura a{
+    color: black;
+    text-decoration: none;
+    padding-left: 25px;
+}
+footer .assinatura a:hover{
+    text-decoration: underline;
+    background-size: 15%;
+}
+figure {
+    float: left;
+    margin: 0 10px 10px 0;
+  }

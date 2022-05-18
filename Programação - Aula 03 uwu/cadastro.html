@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR"
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">                  
+    </head>                                         
+
+    <body>
+        <center>
+            <img src="img/entra21p.png">
+     <nav> 
+        <a href="index.html">Home</a>
+        <a href="empresa.html">Empresa</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contato.html">Contatos</a>
+        <a href="cadastro.html">Cadastro</a>
+    </nav>
+        </center>
+
+    <br>    
+    <center>
+
+        <h1> Cadastro de dados </h1>
+<br>
+<br>
+          
+<corpo>
+    <form action="bancodedados.cs" method="post" enctype="multipart/form-data">
+
+
+        <!--primeira fila-->
+        <label> Nome: </label> 
+        <input type="texto" name="Nome" value="Rafaela" placeholder="Ex.: Rafaela">
+
+        <label> CPF: </label>
+        <input type="texto" name="CPF" placeholder="Ex.: 123.456.789.10" autocomplete="off" maxlength="11">
+
+        <label> RG: </label>
+        <input type="texto" name="RG" placeholder="Ex.: 123456-78" autocomplete="option" maxlength="7">
+
+          <br>
+          <br>
+          
+        <!--segunda fila-->
+        <label> E-mail: </label>
+        <input type="texto" name="E-mail" placeholder="Ex.: rafaela@hotmail.com">
+
+        <label> Rua: </label>
+        <input type="texto" name="Rua" placeholder="Ex.: Rua Gustavo Sallinger">
+
+        <label> Nº: </label>
+        <input type="texto" name="Nº" placeholder="Ex.: 45">
+     
+        <br>
+        <br>
+
+        <!--terceira fila-->    
+        <label> Bairro: </label>
+        <input type="texto" name="Bairro" placeholder="Itoupava Seca">
+
+        <label> Estado: </label>
+        <select name="Estado">
+
+            <option value="">Selecionar Cidade</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="PR">Paraná</option>
+            <option value="RS">Rio Grande Do Sul</option>
+
+        </select>
+       
+        <label> Cidade: </label>
+        <select name="Estado">
+
+            <option value="">Selecionar Cidade</option>
+            <option value="BNU">Blumenau</option>
+            <option value="CRB">Curitiba</option>
+            <option value="PA">Porto Alegre</option>
+
+    </select>
+
+<br>
+<br>
+
+        <!-- quarta fila -->
+    <span>
+        Masculino <input type="radio" name="sexo" value="M">
+        Feminino <input type="radio" name="sexo" value="F">  
+        </span>
+<br>
+    <label>Nacionalidade</label>
+    
+        <input type="checkbox" name="Nacionalidade" value="Brasileiro" checked> Brasileiro
+        <input type="checkbox" name="Nacionalidade" value="Outro"> Outro
+
+<br>
+<br>
+        
+    <label>Foto</label>
+        
+        <input type="file" name="foto" multiple>
+
+        <!-- botões para enviar ou apagar a foto -->
+        <input type="submit" name="enviar" value="Enviar">
+        <button type="reset">Apagar</button>
+
+<br>
+   <br>    
+        <label>Texto:</label>
+        <!-- usar 'required' para tornar o campo obrigatório -->
+        <textarea name="texto" required></textarea> 
+        <!-- botões para enviar ou apagar o texto -->
+        <input type="submit" name="enviar" value="enviar">
+        <input type="reset" name="limpar" value="limpar">
+
+</center>
+    </body>
+        </form>
+            </html>

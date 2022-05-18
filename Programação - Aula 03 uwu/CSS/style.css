@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400&display=swap');
+
+*{
+    font-family: Rajdhani;
+}
+
+
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #36023898;
+    font-family: Rajdhani;
+
+}
+
+body .pageContato {
+
+    width: 35%;
+    background: #36023898;
+    margin: 94px 30%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 52px 5px #ff38c380;
+    padding: 10px;
+    display: block;
+    float: center;
+    min-height: 200px;
+    
+}
+input[type="text" i] {
+    padding: 1px 2psx;
+}
+
+.botão1 {
+
+    width: 77px;
+	height: 27px;
+	background: #0000006e;
+	border: unset;
+	color: rgba(66, 0, 61, 0.753);
+	font-size: 18px;
+
+}
+
+.botão2 {
+
+    width: 77px;
+	height: 27px;
+	background: #0000006e;
+	border: unset;
+	color: rgba(66, 0, 61, 0.753);
+	font-size: 18px;
+
+}
+
+.texto {
+
+    height: 132px;
+    width: 459px;
+
+}
+
+.total {
+
+width: 100%;
+
+}
